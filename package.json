@@ -1,0 +1,18 @@
+{
+  "name": "flag-stream-sync-ws",
+  "version": "1.0.0",
+  "description": "A Node WebSocket server and client that stream versioned flag changes and resync after a dropped connection.",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.0.0"
+  }
+}
